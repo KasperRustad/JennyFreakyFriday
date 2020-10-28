@@ -1,0 +1,99 @@
+body {
+  margin: 0px;
+  background-color: #4EB36A;
+}
+/*** HEADER ***/
+header {
+  background-color: #FFFFFF;
+  margin: none;
+  padding: 5px 10px 5px 10px;
+}
+.logo {
+  margin: 10px 10px 10px 30px;
+}
+.topnav {
+  float: right;
+  font-size: 25px;
+  margin: 20px 30px 10px 0px;
+}
+.topnav a {
+  color: #B30000;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 10px;
+}
+.topnav a:hover {
+  color: #FF0000;
+}
+
+.topnav a.active {
+  color: #FF0000;
+}
+/*** MAIN ***/
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+.introtext {
+  margin: 20px 10px 10px 45px;
+  color: #2C3036;
+  float: left;
+  text-align: center;
+  width: 40%;
+}
+.image{
+  margin: 20px 5px 10px 0px;
+  float: right;
+  width: 40%
+}
+button {
+  background-color: #2C3036;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+button a {
+  color: #FF1919;
+  text-decoration: none;
+}
+button a:hover {
+  color: #B30000;
+}
+/*** FOOTER ***/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+footer .column {
+  float: left;
+  width: 33.33%;
+}
+footer h2 {
+  color: #AEFCC4;
+  text-align: center;
+  padding-bottom: 30px;
+}
+footer .row:after {
+  content: "";
+  display: table;
+  clear: both;            /* Clear floats after the columns */
+}
+.fa {
+  padding: 5px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #B30000;
+}
+.fa:hover {
+  color: #FF0000;
+}
